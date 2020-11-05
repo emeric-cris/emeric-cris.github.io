@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="300" viewBox="0 0 1920 300">
+  <g id="Nuestra_historia" data-name="Nuestra historia" transform="translate(-0.5 -1120)">
+    <text id="NUESTRA" transform="translate(960 1275)" fill="#a19f8d" font-size="160" font-family="Montserrat-Regular, Montserrat"><tspan x="-396.96" y="0">NUESTRA</tspan></text>
+    <line id="Línea_1" data-name="Línea 1" x2="767" transform="translate(0.5 1339.5)" fill="none" stroke="#a19f8d" stroke-width="4"/>
+    <line id="Línea_2" data-name="Línea 2" x2="767" transform="translate(1153.5 1339.5)" fill="none" stroke="#a19f8d" stroke-width="4"/>
+    <text id="Historia" transform="translate(969 1371)" font-size="133" font-family="TropicalSummerSignature, Tropical Summer Signature"><tspan x="-148.229" y="0">Historia</tspan></text>
+  </g>
+</svg>

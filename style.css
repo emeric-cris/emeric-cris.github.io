@@ -1,0 +1,310 @@
+body {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    padding: 0px;
+    margin: auto;
+    height: 20000px;
+}
+
+p {
+    font-family: 'Montserrat';
+    margin: auto;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+th {
+    font-weight: normal;
+}
+
+.section_1 {
+    height: 55vw;
+}
+
+.section_2 {
+    height: 55vw;
+}
+
+.section_3 {
+    height: 55vw;
+}
+
+.section_4 {
+    height: 55vw;
+}
+
+.section_5 {
+    height: 55vw;
+    background-color: rgb(201, 201, 201);
+}
+
+.bg_home {
+    width: 100%;
+    opacity: 100%;
+    position: absolute;
+}
+
+.bg_overlay {
+    width: 100%;
+    position: absolute;
+}
+
+.header {
+    font-size: 0.8vw;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0% 3% 0% 3%;
+    position: relative;
+}
+
+.header th {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    font-weight: bolder;
+}
+
+.header th[id="1"] {
+    width: 20%;
+}
+
+.header th[id="2"] {
+    width: 10%;
+}
+
+.header th[id="3"] {
+    width: 40%;
+}
+
+.header th[id="4"] {
+    width: 10%;
+}
+
+.header th[id="5"] {
+    width: 20%;
+}
+
+.save_the_date {
+    position: absolute;
+    top: 32vw;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.save_the_date tr[id="pl1"] {
+    height: 100px;
+}
+
+.save_the_date tr[id="pl2"] {
+    height: 50px;
+}
+
+.save_the_date th[id="felices"] {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 0.7;
+    font-weight: bolder;
+}
+
+.save_the_date th[id="data"] {
+    font-size: 2.3em;
+    line-height: 0.2;
+    letter-spacing: 15px;
+    font-weight: bolder;
+}
+
+.save_the_date th[id="l"] {
+    width: 10%;
+    text-align: center;
+}
+
+.save_the_date th[id="ep"] {
+    width: 15%;
+}
+
+.save_the_date th[id="save"] {
+    width: 50%;
+}
+
+.nuestra_historia {
+    width: 100%;
+    margin-top: 4vw;
+}
+
+.roundframe_fotos {
+    max-width: 5vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ella_el_texto th[id="ella_f2"] {
+    max-width: 5vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ella_el_texto th[id="el_f2"] {
+    max-width: 5vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ella_el_texto {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1vw;
+}
+
+.ella_el_texto th[id="eth"] {
+    background-color: green;
+    width: 26%;
+}
+
+.ella_el_texto th[id="c1"] {
+    width: 18%;
+}
+
+.ella_el_texto th[id="c2"] {
+    width: 40%;
+}
+
+.ella_el_texto th[id="c3"] {
+    width: 18%;
+}
+
+.nuestra_foto {
+    margin-top: -11vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30vw;
+    height: auto;
+}
+
+.ceremonia {
+    width: 100%;
+    margin-top: 4vw;
+}
+
+.mapa {
+    max-height: 35vw;
+    max-width: 35vw;
+    margin-top: 2vw;
+    margin-left: 8%;
+    position: relative;
+}
+
+.como_llegar {
+    margin-top: -23vw;
+    margin-left: 48%;
+    text-align: center;
+    width: 18%;
+}
+
+.casa_de_burgos {
+    margin-top: 4vw;
+    margin-left: 68vw;
+    position: absolute;
+    text-align: center;
+}
+
+.arbol {
+    max-height: 220px;
+    max-width: 220px;
+}
+
+.casa_burgos {
+    max-width: 300px;
+    height: auto;
+}
+
+.nueva {
+    width: 100%;
+    margin-top: 4vw;
+}
+
+.el_viaje {
+    margin-top: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    height: auto;
+}
+
+.ref_cuenta {
+    text-align: center;
+    margin-top: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.n_cuenta {
+    text-align: center;
+    margin-top: 1vw;
+    width: 35rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 2em;
+    background: #a19f8d44;
+    padding: 10px;
+}
+
+.bg_footer {
+    width: 100%;
+    opacity: 100%;
+    position: absolute;
+}
+
+.faltan {
+    font-size: 5em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: white;
+    padding-top: 65vh;
+}
+
+.cuenta_regresiva {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.cuenta_regresiva tr[id="pl2"] {
+    height: 50px;
+}
+
+.cuenta_regresiva th[id="data"] {
+    font-family: 'Clicker Script', cursive;
+    font-size: 2.3em;
+    line-height: 0.2;
+    letter-spacing: 15px;
+    font-weight: bolder;
+}
+
+.cuenta_regresiva th[id="l"] {
+    text-align: center;
+}
+
+.cuenta_regresiva th[id="countdown"] {
+    font-family: 'Clicker Script', cursive;
+    font-size: 2.5em;
+}
