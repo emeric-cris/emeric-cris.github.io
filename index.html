@@ -21,46 +21,17 @@
             <tr>
                 <th id="1">Nuestra Historia</th>
                 <th id="2">Ceremonia</th>
-                <th id="3"><img src="/11-resources/02-images/E&C_W.svg" alt="E&C_icon" class="E&C_icon" width="429px" height="87px"></th>
-                <th id="4">Regalos</th>
+                <th id="3"><img src="/11-resources/02-images/E&C_W.svg" alt="E&C_icon" class="EyC_icon"></th>
+                <th id="4">Nueva Vida</th>
                 <th id="5">Invitación</th>
             </tr>
         </table>
-
-        <table class="save_the_date">
-            <tr id="pl1">
-                <th>&nbsp;</th>
-                <th>&nbsp;</th>
-                <th id="felices"><br>Nuestro </br><br> felices por siempre</br>
-                </th>
-                <th>&nbsp;</th>
-                <th>&nbsp;</th>
-            </tr>
-            <tr>
-                <th id="l">
-                    <svg height="9px" width="20em" class="linea_1">
-                <line x1="170" y1="0" x2="320" y2="0" style="stroke:rgb(255, 255, 255); stroke-width:10px"/>
-                </svg>
-                </th>
-                <th id="ep">&nbsp;</th>
-                <th id="save"><img src="/11-resources/02-images/Save the date_W.svg" width="428px" height="112px"></th>
-                <th id="ep">&nbsp;</th>
-
-                <th id="l">
-                    <svg height="9px" width="20em" class="linea_1">
-                <line x1="0" y1="0" x2="150" y2="0" style="stroke:rgb(255, 255, 255); stroke-width:10px"/>
-                </svg>
-                </th>
-            </tr>
-
-            <tr id="pl2">
-                <th>&nbsp;</th>
-                <th>&nbsp;</th>
-                <th id="data">12.03.2021</th>
-                <th>&nbsp;</th>
-                <th>&nbsp;</th>
-            </tr>
-        </table>
+        <div class="nuestro_felices">
+            <p class="felices">Nuestro</p>
+            <p class="felices">felices por siempre</p>
+            <img class="save" src="/11-resources/02-images/Save the date_W.svg">
+            <p class="data">12.03.2021</p>
+        </div>
     </div>
 
     <div class="section_2">
@@ -145,31 +116,15 @@
         <img src="/11-resources/02-images/bg_footer_01.png" alt="BG Footer" class="bg_footer">
         <img src="/11-resources/02-images/TOP BG1.png" alt="BG Overlay" class="bg_overlay">
 
-        <p class="faltan">Faltan</p>
 
-        <table class="cuenta_regresiva">
-            <tr>
-                <th id="l">
-                    <svg height="9px" width="20em" class="linea_1">
-                    <line x1="170" y1="0" x2="320" y2="0" style="stroke:rgb(255, 255, 255); stroke-width:10px"/>
-                    </svg>
-                </th>
-                <th id="countdown">121 días 08 horas 35 segundos</th>
-                <th id="l">
-                    <svg height="9px" width="20em" class="linea_1">
-                    <line x1="0" y1="0" x2="150" y2="0" style="stroke:rgb(255, 255, 255); stroke-width:10px"/>
-                    </svg>
-                </th>
-            </tr>
-
-            <tr id="pl2">
-                <th>&nbsp;</th>
-                <th id="data">12.03.2021</th>
-                <th>&nbsp;</th>
-            </tr>
-        </table>
+        <div>
+            <p class="faltan">Faltan</p>
+            <p class="countdown"> <b id="days"></b> <b id="hours"></b> <b id="mins"></b> <b id="secs"></b> <b id="end"></b> </p>
+            <p class="countdown_date">12.03.2021</p>
+        </div>
 
 
+        <a href="https://forms.gle/FAKeatho4gWVjtB5A" target="_blank" class="rsvp">Confirmación</a>
     </div>
 
 
@@ -177,7 +132,39 @@
 
 
 
-    <script src="" async defer></script>
+    <script>
+        // The data/time we want to countdown to
+        var countDownDate = new Date("Mar 12, 2021 18:00:00").getTime();
+
+        // Run myfunc every second
+        var myfunc = setInterval(function() {
+
+            var now = new Date().getTime();
+            var timeleft = countDownDate - now;
+
+            // Calculating the days, hours, minutes and seconds left
+            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+            // Result is output to the specific element
+            document.getElementById("days").innerHTML = days + " días "
+            document.getElementById("hours").innerHTML = hours + " horas "
+            document.getElementById("mins").innerHTML = minutes + " minutos "
+            document.getElementById("secs").innerHTML = seconds + " segundos "
+
+            // Display the message when countdown is over
+            if (timeleft < 0) {
+                clearInterval(myfunc);
+                document.getElementById("days").innerHTML = ""
+                document.getElementById("hours").innerHTML = ""
+                document.getElementById("mins").innerHTML = ""
+                document.getElementById("secs").innerHTML = ""
+                document.getElementById("end").innerHTML = "¡LLEGÓ EL MOMENTO!";
+            }
+        }, 1000);
+    </script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat';
-    font-size: 1em;
+    font-size: 1.1vw;
     padding: 0px;
     margin: auto;
     height: 20000px;
@@ -18,35 +18,46 @@ th {
 }
 
 .section_1 {
-    height: 55vw;
+    position: relative;
 }
 
 .section_2 {
-    height: 55vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    position: relative;
 }
 
 .section_3 {
-    height: 55vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    position: relative;
 }
 
 .section_4 {
-    height: 55vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    position: relative;
 }
 
 .section_5 {
-    height: 55vw;
-    background-color: rgb(201, 201, 201);
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    position: relative;
 }
 
 .bg_home {
-    width: 100%;
-    opacity: 100%;
+    width: 100vw;
     position: absolute;
 }
 
 .bg_overlay {
-    width: 100%;
+    width: 100vw;
     position: absolute;
+}
+
+.EyC_icon {
+    width: 90%;
+    height: auto;
 }
 
 .header {
@@ -85,53 +96,48 @@ th {
     width: 20%;
 }
 
-.save_the_date {
-    position: absolute;
-    top: 32vw;
-    width: 100%;
-    text-align: center;
-    color: white;
+.nuestro_felices {
+    padding-top: 28vw;
+    padding-bottom: 5vw;
 }
 
-.save_the_date tr[id="pl1"] {
-    height: 100px;
-}
-
-.save_the_date tr[id="pl2"] {
-    height: 50px;
-}
-
-.save_the_date th[id="felices"] {
-    font-size: 1.5em;
+.felices {
+    font-size: 2vw;
     text-transform: uppercase;
     margin-bottom: 10px;
     line-height: 0.7;
     font-weight: bolder;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
 }
 
-.save_the_date th[id="data"] {
-    font-size: 2.3em;
+.save {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 7vw;
+    width: auto;
+}
+
+.data {
+    position: relative;
+    font-size: 2vw;
     line-height: 0.2;
     letter-spacing: 15px;
     font-weight: bolder;
-}
-
-.save_the_date th[id="l"] {
-    width: 10%;
+    color: white;
     text-align: center;
-}
-
-.save_the_date th[id="ep"] {
-    width: 15%;
-}
-
-.save_the_date th[id="save"] {
-    width: 50%;
+    margin-top: 15px;
+    ;
 }
 
 .nuestra_historia {
     width: 100%;
-    margin-top: 4vw;
+    margin-top: 3vw;
 }
 
 .roundframe_fotos {
@@ -194,29 +200,32 @@ th {
 
 .ceremonia {
     width: 100%;
-    margin-top: 4vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
 }
 
 .mapa {
     max-height: 35vw;
     max-width: 35vw;
-    margin-top: 2vw;
-    margin-left: 8%;
+    margin-left: 5%;
     position: relative;
 }
 
 .como_llegar {
     margin-top: -23vw;
-    margin-left: 48%;
+    margin-left: 45%;
     text-align: center;
     width: 18%;
+    padding-bottom: 10vw;
+    font-size: 1vw;
 }
 
 .casa_de_burgos {
     margin-top: 4vw;
-    margin-left: 68vw;
+    margin-left: 70%;
     position: absolute;
     text-align: center;
+    font-size: 1vw;
 }
 
 .arbol {
@@ -231,7 +240,7 @@ th {
 
 .nueva {
     width: 100%;
-    margin-top: 4vw;
+    margin-top: 3vw;
 }
 
 .el_viaje {
@@ -254,7 +263,7 @@ th {
 .n_cuenta {
     text-align: center;
     margin-top: 1vw;
-    width: 35rem;
+    width: 35vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -265,46 +274,57 @@ th {
 }
 
 .bg_footer {
-    width: 100%;
+    width: 100vw;
     opacity: 100%;
     position: absolute;
 }
 
 .faltan {
-    font-size: 5em;
+    font-size: 5vw;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     color: white;
-    padding-top: 65vh;
+    padding-top: 30vw;
 }
 
-.cuenta_regresiva {
+.countdown {
+    font-size: 2vw;
     position: relative;
-    width: 100%;
-    text-align: center;
     color: white;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-.cuenta_regresiva tr[id="pl2"] {
-    height: 50px;
-}
-
-.cuenta_regresiva th[id="data"] {
-    font-family: 'Clicker Script', cursive;
-    font-size: 2.3em;
+.countdown_date {
+    font-size: 2vw;
     line-height: 0.2;
     letter-spacing: 15px;
     font-weight: bolder;
-}
-
-.cuenta_regresiva th[id="l"] {
+    position: relative;
+    color: white;
     text-align: center;
+    padding-top: 1vw;
 }
 
-.cuenta_regresiva th[id="countdown"] {
-    font-family: 'Clicker Script', cursive;
-    font-size: 2.5em;
+.rsvp {
+    box-shadow: inset 1px 1px 0px 0px #ffffff;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #A19F8D;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #ffffff;
+    position: relative;
+    text-align: center;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
 }
