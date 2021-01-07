@@ -4,6 +4,8 @@ body {
     padding: 0px;
     margin: auto;
     width: 100vw;
+    position: relative;
+    z-index: -1000;
 }
 
 p {
@@ -113,26 +115,6 @@ th {
 .Hs5 {
     width: 20%;
     padding-left: 7vw;
-}
-
-.header th[id="1"] {
-    width: 20%;
-}
-
-.header th[id="2"] {
-    width: 10%;
-}
-
-.header th[id="3"] {
-    width: 40%;
-}
-
-.header th[id="4"] {
-    width: 10%;
-}
-
-.header th[id="5"] {
-    width: 20%;
 }
 
 .nuestro_felices {
@@ -413,4 +395,158 @@ th {
     margin-left: auto;
     margin-right: auto;
     display: table;
+}
+
+.scroll_dots {
+    position: fixed;
+    display: grid;
+    margin-left: 88vw;
+    margin-top: 24vw;
+    text-align: right;
+    z-index: 100;
+}
+
+.scroll_dotsW {
+    position: fixed;
+    display: grid;
+    margin-left: 88vw;
+    margin-top: 24vw;
+    text-align: right;
+    z-index: 100;
+    filter: brightness(100);
+}
+
+.scroll_dot1 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot1A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_dot2 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot2A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_dot3 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot3A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_dot4 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot4A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_dot5 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot5A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_p1 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p1A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
+
+.scroll_p2 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p2A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
+
+.scroll_p3 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p3A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
+
+.scroll_p4 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p4A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
+
+.scroll_p5 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p5A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
 }

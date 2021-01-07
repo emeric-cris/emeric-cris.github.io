@@ -10,9 +10,18 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <div class="scroll_dots">
+        <a href="#section_header" class="scroll_p1">Inicio&nbsp;&nbsp;<img class="scroll_dot1"></a>
+        <a href="#section_historia" class="scroll_p2">Nuestra Historia&nbsp;&nbsp;<img class="scroll_dot2"></a>
+        <a href="#section_ceremonia" class="scroll_p3">Ceremonia&nbsp;&nbsp;<img class="scroll_dot3"></a>
+        <a href="#section_nueva" class="scroll_p4">Nueva Vida&nbsp;&nbsp;<img class="scroll_dot4"></a>
+        <a href="#section_invitación" class="scroll_p5">Invitación&nbsp;&nbsp;<img class="scroll_dot5"></a>
+    </div>
+
     <div id="section_header" class="section_1">
         <img src="/11-resources/02-images/bg_home_01.png" alt="BG Home" class="bg_home">
         <img src="/11-resources/02-images/TOP BG1.png" alt="BG Overlay" class="bg_overlay">
@@ -111,7 +120,7 @@
         <div class="dia_hora_direccion">
             <p>Día 12 de Marzo de 2021 a las 18:00 hrs</p>
             <p>Calle Principal de Provincias, 3, 28011 Madrid</p>
-            <p class="como_llegar">Local y fecha sujetos a cambios según las normativas actuales de la CAM</p>
+            <p class="como_llegar">*Local y fecha sujetos a cambios según las normativas actuales de la CAM</p>
 
         </div>
 
@@ -160,38 +169,7 @@
         <a href="https://forms.gle/FAKeatho4gWVjtB5A" target="_blank" class="rsvp">Confirmación</a>
     </div>
 
-    <script>
-        // The data/time we want to countdown to
-        var countDownDate = new Date("Mar 12, 2021 18:00:00").getTime();
-
-        // Run myfunc every second
-        var myfunc = setInterval(function() {
-
-            var now = new Date().getTime();
-            var timeleft = countDownDate - now;
-
-            // Calculating the days, hours, minutes and seconds left
-            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
-
-            // Result is output to the specific element
-            document.getElementById("days").innerHTML = days + " días "
-            document.getElementById("hours").innerHTML = hours + " horas "
-            document.getElementById("mins").innerHTML = minutes + " minutos "
-            document.getElementById("secs").innerHTML = seconds + " segundos "
-
-            // Display the message when countdown is over
-            if (timeleft < 0) {
-                clearInterval(myfunc);
-                document.getElementById("days").innerHTML = ""
-                document.getElementById("hours").innerHTML = ""
-                document.getElementById("mins").innerHTML = ""
-                document.getElementById("secs").innerHTML = ""
-                document.getElementById("end").innerHTML = "¡LLEGÓ EL MOMENTO!";
-            }
-        }, 1000);
+    <script src="/scripts.js">
     </script>
 </body>
 
