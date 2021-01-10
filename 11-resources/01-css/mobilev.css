@@ -1,0 +1,573 @@
+body {
+    font-family: 'Montserrat';
+    font-size: 1.1vw;
+    padding: 0px;
+    margin: auto;
+    z-index: -1000;
+}
+
+p {
+    font-family: 'Montserrat';
+    margin: auto;
+    font-size: 2.3vw;
+    font-weight: normal;
+}
+
+a {
+    font-family: 'Montserrat';
+    margin: auto;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    text-decoration: auto;
+}
+
+th {
+    font-weight: normal;
+}
+
+.BG_width {
+    max-width: 100%;
+}
+
+.section_1 {
+    position: relative;
+    height: 100vw;
+    max-width: 100%;
+}
+
+.section_2 {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    position: relative;
+    max-width: 100%;
+}
+
+.section_3 {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    position: relative;
+    max-width: 100%;
+}
+
+.section_4 {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    position: relative;
+    max-width: 100%;
+}
+
+.section_5 {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    position: relative;
+    max-width: 100%;
+}
+
+.bg_home {
+    height: 100vw;
+    position: absolute;
+    object-fit: cover;
+}
+
+.bg_overlay {
+    position: absolute;
+    height: 100vw;
+    object-fit: cover;
+}
+
+.EyC_icon {
+    width: 60vw;
+    height: auto;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.header {
+    font-size: 1vw;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-top: 1vw;
+    text-decoration: none;
+}
+
+.Hs1 {
+    width: 20%;
+    padding-top: -5vw;
+    display: none;
+}
+
+.Hs2 {
+    width: 10%;
+    padding-left: 7vw;
+    display: none;
+}
+
+.Hs3 {
+    width: 100%;
+}
+
+.Hs4 {
+    width: 10%;
+    display: none;
+}
+
+.Hs5 {
+    width: 20%;
+    padding-left: 7vw;
+    display: none;
+}
+
+.nuestro_felices {
+    padding-top: 55vw;
+    padding-bottom: 5vw;
+}
+
+.felices {
+    font-size: 3vw;
+    text-transform: uppercase;
+    margin-bottom: 1.3vw;
+    line-height: 0.7;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.save {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 11vw;
+    width: auto;
+}
+
+.data {
+    position: relative;
+    font-size: 3vw;
+    line-height: 0.2;
+    letter-spacing: 3vw;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-top: 3.5vw;
+    ;
+}
+
+.nuestra {
+    font-size: 13vw;
+    font-weight: bolder;
+    margin-top: 3vw;
+    text-transform: uppercase;
+    color: #A19F8D;
+    text-align: center;
+}
+
+.historia {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    margin-top: -1.5vw;
+    max-width: 23vw;
+}
+
+.lineas {
+    margin-top: -3.5vw;
+    margin-bottom: 3vw;
+    display: none;
+}
+
+.ella_el_texto {
+    display: none;
+}
+
+.ella_el_texto_m {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+}
+
+.roundframe_fotos {
+    max-width: 10vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ella_el {
+    max-height: 6vw;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.ella_el_texto_m th[id="eth"] {
+    width: 5%;
+}
+
+.ella_el_texto_m th[id="ella_c1"] {
+    width: 20%;
+    font-weight: normal;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-size: 2.3vw;
+}
+
+.ella_el_texto_m th[id="el_c2"] {
+    width: 20%;
+    font-weight: normal;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-size: 2.3vw;
+}
+
+.nuestra_foto {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 48vw;
+    height: auto;
+}
+
+.ceremonia {
+    font-size: 13vw;
+    font-weight: bolder;
+    margin-top: 3vw;
+    text-transform: uppercase;
+    color: #A19F8D;
+    text-align: center;
+}
+
+.cuando_y_donde {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    margin-top: -1.5vw;
+    max-width: 55vw;
+}
+
+.mapa {
+    max-height: 62vw;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+}
+
+.casa_de_burgos {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arbol {
+    max-height: 11vw;
+    width: auto;
+    margin-left: 24%;
+}
+
+.casa_burgos {
+    max-width: 40vw;
+    height: auto;
+    margin-left: 3%;
+}
+
+.dia_hora_direccion {
+    margin-top: 2vw;
+    font-size: 2.3vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.como_llegar {
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.nueva {
+    font-size: 13vw;
+    font-weight: bolder;
+    margin-top: 3vw;
+    text-transform: uppercase;
+    color: #A19F8D;
+    text-align: center;
+}
+
+.lineas2 {
+    display: none;
+    margin-top: -6vw;
+    margin-bottom: 6.5vw;
+}
+
+.el_viaje {
+    margin-top: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50vw;
+    height: auto;
+    margin-bottom: 3vw;
+}
+
+.n_cuenta {
+    text-align: center;
+    margin-top: 1vw;
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 3vw;
+    background: #a19f8d44;
+    padding: 10px;
+}
+
+.n_cuenta2 {
+    text-align: center;
+    margin-top: 1vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.3vw;
+}
+
+.bg_footer {
+    height: 100vw;
+    position: absolute;
+    object-fit: cover;
+}
+
+.quedan {
+    font-size: 8vw;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: white;
+    padding-top: 65vw;
+    text-transform: uppercase;
+}
+
+.countdown {
+    font-size: 3vw;
+    position: relative;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.countdown_date {
+    font-size: 3vw;
+    line-height: 0.2;
+    letter-spacing: 2vw;
+    font-weight: bolder;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 2vw;
+}
+
+.rsvp {
+    box-shadow: inset 1px 1px 0px 0px #ffffff;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #A19F8D;
+    font-size: 2.3vw;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #ffffff;
+    position: relative;
+    text-align: center;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.scroll_dots {
+    position: fixed;
+    margin-left: 88vw;
+    margin-top: 24vw;
+    text-align: right;
+    z-index: 100;
+    display: none;
+}
+
+.scroll_dotsV {
+    position: fixed;
+    margin-left: 88vw;
+    margin-top: 24vw;
+    text-align: right;
+    z-index: 100;
+    display: none;
+}
+
+.scroll_dotsW {
+    position: fixed;
+    display: grid;
+    margin-left: 88vw;
+    margin-top: 24vw;
+    text-align: right;
+    z-index: 100;
+    filter: brightness(100);
+    display: none;
+}
+
+.scroll_dot1 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot1A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_dot2 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot2A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_dot3 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot3A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_dot4 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot4A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_dot5 {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot_activated.svg);
+    width: 0.7vw;
+}
+
+.scroll_dot5A {
+    margin-top: 1vw;
+    content: url(/11-resources/02-images/Scroll_dot.svg);
+    width: 1vw;
+    margin-left: -3px;
+}
+
+.scroll_p1 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p1A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
+
+.scroll_p2 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p2A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
+
+.scroll_p3 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p3A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
+
+.scroll_p4 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p4A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
+
+.scroll_p5 {
+    font-size: 1vw;
+    margin: initial;
+    color: #A19F8D;
+    font-weight: normal;
+}
+
+.scroll_p5A {
+    font-size: 1vw;
+    margin: initial;
+    color: #433F1B;
+    font-weight: bold;
+}
